@@ -1,0 +1,81 @@
+html,body{
+  height: 100%;
+}
+
+.app{
+  /* background-image: url('/public/sunset.jpg'); */
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;     
+  background-color: #222831 ;
+}
+
+.form{
+  padding-top: 3rem;
+
+}
+.display{
+  padding-top: 2rem;
+}
+/* .card-display{
+  opacity: 0.8 !important;
+  
+} */
+.city{
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+.temp{
+  margin: 1rem 0rem 3rem 0;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.country{
+  background-color: #fd7014;
+  padding: 3px 3px 3px 3px;
+  /* margin-left: 2px; */
+  /* color: white; */
+  margin-top: 2rem;
+  font-weight: bold;
+}
+.deg{
+  font-weight: bold;
+  font-size: 2rem;
+}
+.sun-moon img{
+  width: 15vh;
+}
+.text{
+  font-weight: bold;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  font-size: 1.5rem;
+  padding-bottom: 15px;
+}
+.temp-contain{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+}
+.city-contain{
+  padding-top: 1rem;
+
+}
+.text-contain{
+  padding-bottom: .5rem;
+
+}
+
+.card-body{
+  background-color: #393E46;
+  color: #eeeeee;
+}
+.card-display{
+  border: none !important;
+
+}
+.input{
+  background-color: gold;
+}
